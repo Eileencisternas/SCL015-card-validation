@@ -1,0 +1,377 @@
+.principal {
+  /* width: 100%; */
+  height: 100vh;
+  background: url("fondo.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* ]background: rgba(255,255,255,1); */
+  opacity: 1;
+  align-content: center;
+  /* top: 0px;
+  left: 0px; */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  top: auto;
+  left: auto;
+}
+
+.contenedor1 {
+  position: absolute;
+  width: 650px;
+  height: 897px;
+  left: 100px;
+  top: 51px;
+
+  background: linear-gradient(180deg, #925353 0%, rgba(104, 101, 102, 0) 100%);
+  border-radius: 40px;
+}
+
+.botonconfirmar {
+  position: absolute;
+  width: 255.03px;
+  height: 54.93px;
+  left: 938px;
+  top: 804px;
+  background: 000000;
+  mix-blend-mode: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.tituloreserva {
+  position: absolute;
+  font-family: Alex Brush;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 75px;
+  letter-spacing: 0em;
+  /* text-align: left; */
+  left: 80px;
+  color: #ffffff;
+  mix-blend-mode: color-dodge;
+}
+.textoesmaltado {
+  position: absolute;
+  width: 226px;
+  height: 70px;
+  left: 80px;
+  top: 268px;
+
+  font-family: Alex Brush;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 55px;
+
+  color: #ffffff;
+}
+
+.textototal {
+  position: absolute;
+  width: 226px;
+  height: 83px;
+  left: 70px;
+  top: 445px;
+
+  font-family: Alex Brush;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 55px;
+
+  color: #ffffff;
+}
+.precioitem1 {
+  position: absolute;
+  width: 163px;
+  height: 50px;
+  left: 416px;
+  top: 284px;
+
+  font-family: Alex Brush;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 55px;
+
+  color: #ffffff;
+}
+
+.precioitem2 {
+  position: absolute;
+  width: 163px;
+  height: 50px;
+  left: 407px;
+  top: 431px;
+
+  font-family: Alex Brush;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 55px;
+
+  color: #ffffff;
+}
+.cuadrado2 {
+  position: absolute;
+  width: 626px;
+  height: 509px;
+  left: 1074px;
+  top: 439px;
+  background: linear-gradient(
+    180deg,
+    #8e5757 0%,
+    rgba(247, 234, 239, 0.47) 100%
+  );
+  border-radius: 40px;
+}
+
+.fondotc {
+  width: 537px;
+  height: 320px;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(24, 23, 23, 1));
+  opacity: 1;
+  position: absolute;
+  top: 169px;
+  left: 1118px;
+  border-radius: 25px;
+  background: linear-gradient(
+    73.29deg,
+    #000000 37.8%,
+    #181818 37.81%,
+    #2c2b2c 37.82%,
+    #3d3c3c 37.82%,
+    #adaaab 37.83%,
+    #1b1a1b 37.84%,
+    #353434 39.17%,
+    #353434 39.18%,
+    #7e7c7c 42.95%,
+    #7e7c7c 42.96%,
+    #989696 44.32%,
+    #4b4a4a 44.33%,
+    #a09d9e 52.56%,
+    #9d9a9b 52.56%,
+    #9a9798 52.57%,
+    #1b1a1b 59.76%,
+    #1f1f1f 59.77%,
+    #242323 59.78%,
+    #828080 67.66%,
+    #828080 67.66%,
+    #828080 67.66%,
+    #828080 67.66%,
+    #828080 67.66%,
+    #414040 73.83%,
+    #828080 75.89%,
+    #7e7c7c 75.9%,
+    #1b1a1b 75.9%,
+    #828080 81.38%,
+    #828080 86.18%,
+    #414040 100.94%,
+    #414040 100.94%,
+    #353434 103.68%
+  );
+}
+.iconouser {
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 8.33%;
+  bottom: 8.33%;
+  background: #ffffff;
+  
+}
+.iconotarjeta {
+  position: absolute;
+  width: 52px;
+  height: 50px;
+  left: 803px;
+  top: 595px;
+  background: #ffffff;
+}
+.iconocalendario {
+  position: absolute;
+  width: 67px;
+  height: 55px;
+  left: 796px;
+  top: 672px;
+  background: #ffffff;
+  
+}
+.iconopin {
+  position: absolute;
+  width: 64px;
+  height: 58px;
+  left: 1087px;
+  top: 672px;
+  background: #ffffff;
+}
+#textovalidohasta{
+  position: absolute;
+  width: 164px;
+  height: 28px;
+  left: 120px;
+  top: 320px;
+  
+  font-family: Judson;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.input_tc {
+  width: 372px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  font-family: Judson;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+  border-radius: 8px;
+}
+.texto_tc {
+  width: 390px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  font-family: Judson;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.input_nombre {
+  width: 372px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  font-family: Judson;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+  border-radius: 8px;
+}
+
+.texto_fechavenc {
+  position: absolute;
+  width: 200px;
+  height: 62px;
+  left: 320px;
+  top: 163px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Judson;
+  font-weight: Regular;
+  font-size: 26px;
+
+  border-radius: 8px;
+}
+.input_fechavenc {
+  position: absolute;
+  width: 170px;
+  height: 42px;
+  left: 100px;
+  top: 293px;
+  color: rgba(0, 0, 0, 1);
+  border-radius: 8px;
+  font-family: Judson;
+  font-weight: Regular;
+  font-size: 36px;
+}
+.texto_nombre {
+  width: 372px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  font-family: Judson;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.textotitanium {
+  position: absolute;
+  width: 100px;
+  height: 41px;
+  left: 100px;
+  top: 0px;
+  margin-top: 1px;
+
+  font-family: Gentium Basic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 74px;
+
+  color: #e8eb67;
+
+  mix-blend-mode: screen;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#botonconfirmar {
+  position: absolute;
+  width: 255px;
+  height: 54px;
+  margin-left: 200px;
+  margin-top: 400px;
+  border-radius: 25px;
+  background-color: #8e5757;
+  color: #000000;
+  font-family: Allerta;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+}
+contenedor2{
+    position: absolute;
+    width: 1000px;
+    height: 971px;
+    left: 35px;
+    top: 17px;
+    
+    background: linear-gradient(180deg, #CEA8A8 -5.41%, rgba(104, 101, 102, 0) 94.59%);
+    border-radius: 40px;   
+}
+.titulotcvalidada{
+    position: absolute;
+    width: 641px;
+    height: 57px;
+    left: 246px;
+    top: 117px;
+       
+    font-family: Judson;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    
+    color: #000000;
+}
+
+.parraforeservaexitosa{
+position: absolute;
+width: 982px;
+height: 57px;
+left: 229px;
+top: 441px;
+
+font-family: Judson;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 74px;
+color: #ffffff;
+}

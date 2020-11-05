@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="index.js" type="module"></script>
+</head>
+
+<body>
+  <div class="principal">
+    
+    <div id="pantalla1" style="display: block;">
+    <div class="contenedor1">
+      <h1 class="tituloreserva">Reserva de servicio</h1>
+      <p class="textoesmaltado">Esmaltado permanente</p>
+      <p class="textototal">Total</p>
+      <p class="precioitem1">12.990</p>
+      <p class="precioitem2">12.990</p>
+    </div>
+    <div class="cuadrado2">
+      <input type="text" maxlength="16" class="input_tc" name="tc" id="tc"  onkeypress="return event.charCode >= 48 && event.charCode <= 57" />
+      <input type="text" class="input_nombre" name="nombre" id="nombre" maxlength="18" />
+      <input type="text" class="input_fechavenc" name="fechavenc" id="fechavenc" maxlength="5" />
+      <p id="textovalidohasta">Valido hasta </p>
+      <button id="botonconfirmar">CONFIRMAR PAGO</button>
+    </div>
+
+    
+  </div>
+  <div class="fondotc">
+    <p class="textotitanium">TITANIUM</p>
+    <p class="texto_tc" id="texto_tc"></p>
+    <p class="texto_nombre" id="texto_nombre"></p>
+    <p class="texto_fechavenc" id="texto_fechavenc"></p>
+  </div>
+  <div id="pantalla2" style="display: none;">
+    <h1 class="titulotcvalidada"> La tarjeta ha sido validada</h1>
+   <p  class="parraforeservaexitosa">Reseva exitosa ¡Te esperamos! </p>
+  </div>
+  </div>
+</body>
+
 </html>
