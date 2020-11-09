@@ -178,38 +178,37 @@
 }
 .iconouser {
   position: absolute;
-  left: 8.33%;
-  right: 8.33%;
-  top: 8.33%;
+left: 50px;
+  
+  top: 200px;
+  width: 50px;
   bottom: 8.33%;
-  background: #ffffff;
+  /* background: #ffffff;
+  background: url("imagenes/usuariomujer.png");
+   */
   
 }
 .iconotarjeta {
   position: absolute;
-  width: 52px;
-  height: 50px;
-  left: 803px;
-  top: 595px;
-  background: #ffffff;
+  width: 50px;
+
+  left: 50px;
+  top: 100px;
+  /* background: #ffffff;
+  background: url("imagenes/card.png"); */
+  
 }
 .iconocalendario {
   position: absolute;
-  width: 67px;
+  width: 50px;
   height: 55px;
-  left: 796px;
-  top: 672px;
-  background: #ffffff;
-  
+  left: 50px;
+  top: 293px;
+  /* background: #ffffff;
+  background: url("imagenes/calendar-check_icon-icons.com_56836.svg");
+   */
 }
-.iconopin {
-  position: absolute;
-  width: 64px;
-  height: 58px;
-  left: 1087px;
-  top: 672px;
-  background: #ffffff;
-}
+
 #textovalidohasta{
   position: absolute;
   width: 164px;
@@ -347,15 +346,15 @@ contenedor2{
 }
 .titulotcvalidada{
     position: absolute;
-    width: 641px;
-    height: 57px;
-    left: 246px;
+    width: 741px;
+    height: 47px;
+    left: 276px;
     top: 117px;
        
     font-family: Judson;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 58px;
     line-height: 56px;
     
     color: #000000;
@@ -366,12 +365,12 @@ position: absolute;
 width: 982px;
 height: 57px;
 left: 229px;
-top: 441px;
+top: 241px;
 
 font-family: Judson;
 font-style: normal;
 font-weight: bold;
 font-size: 64px;
 line-height: 74px;
-color: #ffffff;
+color: #000000;
 }
