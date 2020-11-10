@@ -28,12 +28,12 @@ txtbox_tc.onkeyup = function () {
   );
 };
 let txtbox_nombre = document.getElementById("nombre");
-// se crea la funcionabilidad de capturar las presiones de teclado, onkeydown captura una tecla
+// se crea la funcionabilidad de capturar las presiones de teclado, onkeyup captura una tecla
 txtbox_nombre.onkeyup = function () {
   document.getElementById("texto_nombre").innerHTML = txtbox_nombre.value;
 };
 let txtbox_fechavenc = document.getElementById("fechavenc");
-// se crea la funcionabilidad de capturar las presiones de teclado, onkeydown captura una tecla 
+// se crea la funcionabilidad de capturar las presiones de teclado, onkeyup captura una tecla 
 txtbox_fechavenc.onkeyup = function () {
   document.getElementById("texto_fechavenc").innerHTML = txtbox_fechavenc.value;
 };
