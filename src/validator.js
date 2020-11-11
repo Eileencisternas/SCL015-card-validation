@@ -34,12 +34,12 @@ const validator = {
   maskify: function (creditCardNumber) {
     //si el largo de la tarjeta es menor a 6 caracteres devuelvo el mismo numero ingresado
     if (creditCardNumber.length < 6) return creditCardNumber;
-    //almaceno los ultimos 4 digitos
+    //almaceno los ultimos 4 digitos//substr retorno una parte del string
     let ultimos4digitos = creditCardNumber.substr(-4);
     //tomo todos los caracteres a excepcion de los ultimos 4 digitos
     let caracteresaremplazar = creditCardNumber.substr(0,creditCardNumber.length - 4);
     //tomo los numeros anteriores distintos de los ultimos 4 y los reemplazo por #
-    let ocultarcaracter = caracteresaremplazar.replace(/\w/g, "#");
+  let ocultarcaracter = caracteresaremplazar.replace(/\w/g, "#");//(/\w/g) expresion regular para reemplazar todos los valores del string
     //y por ultimo retorno la union de los caracteres de la variable ocultar caracteres y los ultimos 4 digitos
     return `${ocultarcaracter}${ultimos4digitos}`;
   },
