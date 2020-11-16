@@ -2,29 +2,29 @@ const validator = {
   // ...
 
   isValid: function (creditCardNumber) {
-    //largo tc es igual al numero de la tarjeta de credito dada por el usuario
-    let largo = creditCardNumber.length;
-    //posicion par (2 posicion de cada numero) del largo de tc
-    let posicion_par = largo % 2;
+    //long tc es el largo es igual al numero de la tarjeta de credito dada por el usuario
+    let long = creditCardNumber.length;
+    //position_even  es la posicion par (2 posicion de cada numero) del long de tc
+    let position_even = long % 2;
     //declaro variable suma con valor 0
     let suma = 0;
-    let digitoactual;
-    //uso un for para recorrer el largo de un valor ingresado desde el fin a un inicio, por ende el contador i se decrementa en 1 en cada ciclo
-    for (let i = largo - 1; i >= 0; i--) {
+    let currentdigit;
+    //uso un for para recorrer el long de un valor ingresado desde el fin a un inicio, por ende el contador i se decrementa en 1 en cada ciclo
+    for (let i = long - 1; i >= 0; i--) {
       //con chartAt devuelvo el caracter en el lugar que le indico(i)y lo transformo a numero
-      digitoactual = parseInt(creditCardNumber.charAt(i), 10);
+      currentdigit = parseInt(creditCardNumber.charAt(i), 10);
       
-      //si la posicion es par multiplico digito actual por 2
-      if (i % 2 == posicion_par) {
-        digitoactual *= 2;
-       // console.log(digitoactual);
+      //si la posicion es par multiplico current digit (digito actual por 2
+      if (i % 2 == position_even) {
+        currentdigit *= 2;
+       // console.log(currentdigit);
       }
       //si el digito actual es mayor a 9, al digito actual le resto 9
-      if (digitoactual > 9) {
-        digitoactual -= 9;
+      if (currentdigit > 9) {
+        currentdigit -= 9;
       }
       //en la variable suma acumulo el digito actual
-      suma += digitoactual;
+      suma += currentdigit;
     }
     // el resto de suma dividido 10 debe ser 0 para ser una tc valida
     //console.log(suma);
@@ -32,7 +32,7 @@ const validator = {
   },
 
   maskify: function (creditCardNumber) {
-    //si el largo de la tarjeta es menor a 6 caracteres devuelvo el mismo numero ingresado
+    //si el long de la tarjeta es menor a 6 caracteres devuelvo el mismo numero ingresado
     if (creditCardNumber.length < 6) return creditCardNumber;
     //almaceno los ultimos 4 digitos//substr retorno una parte del string
     let ultimos4digitos = creditCardNumber.substr(-4);
