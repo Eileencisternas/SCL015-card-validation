@@ -56,7 +56,7 @@ Imagen del diseño en papel de la creación del prototipo.
 ***
 
 
-## 4. Fedback recibido
+## 4. Feedback recibido
 
 Dentro del feedback recibido se recomendo abarcar un público objetivo (no tan amplio) por lo que inicialmente se realizaron variadas modificaciones al prototipo inicial de figma como; imagenes, colores, datos.
 Una vez términado el prototipo final y estando realizado el código se recomendo utilizar un idioma especifico idealmente inglés por lo que debí realizar cambio de idioma para hacer más uniforme su contenido.
