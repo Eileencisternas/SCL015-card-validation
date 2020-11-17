@@ -40,7 +40,7 @@ const validator = {
     let replacecharacter = creditCardNumber.substr(0,creditCardNumber.length - 4);
     //tomo los numeros anteriores distintos de los ultimos 4 y los reemplazo por #
   let hidecharacter = replacecharacter.replace(/\w/g, "#");//(/\w/g) expresion regular para reemplazar todos los valores del string
-    //y por ultimo retorno la union de los caracteres de la variable ocultar caracteres y los ultimos 4 digitos
+    //y por ultimo retorno la union de los caracteres de la variable hidecharacter (ocultar caracteres) y los ultimos 4 digitos
     return `${hidecharacter}${last4digit}`;
   },
 };
